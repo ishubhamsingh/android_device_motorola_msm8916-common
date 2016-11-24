@@ -20,7 +20,7 @@
 
     <PreferenceCategory
         android:key="actions_key"
-        android:title="@string/actions_title" >
+        android:title="@string/actions_title">
 
         <SwitchPreference
             android:key="gesture_camera_action"
@@ -37,8 +37,8 @@
         <SwitchPreference
             android:key="gesture_ir_silencer"
             android:defaultValue="false"
-            android:title="@string/ir_silencer_title"
-            android:summary="@string/ir_silencer_summary" />
+            android:title="@string/hand_wave_silencer_title"
+            android:summary="@string/hand_wave_silencer_summary" />
 
         <SwitchPreference
             android:key="gesture_flip_to_mute"
